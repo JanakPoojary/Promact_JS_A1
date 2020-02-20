@@ -107,9 +107,6 @@ f.onsubmit = function(e) {
   f.reset();
 
 }
-//---------------------below code is to updates the "checked" to defaults after the form is submited---------------------
-//--------when form is filled for second time (without the page being refreshed) the default values will be applied------
-//-----------------This is just a precaution incase someone resubmits the form without refreshing the page.--------------
 f.onreset=function(){
 var t=  document.getElementById("Java").setAttribute("checked",true);
 var t=  document.getElementById("C#").setAttribute("checked",true);
